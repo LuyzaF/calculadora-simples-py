@@ -18,14 +18,14 @@ def printar_resultado(resultado):
   print(f"resultado = {resultado}")
 
 while(True):
-  print("voce deseja fazer quais das seguintes operações? ")
-  print("1 (somar) ")
-  print("2 (subtrair) ")
+  print("voce deseja fazer quais das seguintes operações?")
+  print("1 (somar)")
+  print("2 (subtrair)")
   print("3 (multiplicar)")
   print("4 (dividir)")
 
   escolha = input("digite 1, 2, 3 ou 4: ")
-  if escolha in ('1', '2', '3', '4' ):
+  if escolha in ('1', '2', '3', '4'):
     num1 = float(input("digite o primeiro numero: "))
     num2 = float(input("digite o segundo numero: "))
     if escolha == '1':
@@ -42,5 +42,5 @@ while(True):
       printar_resultado(resultado)
     
   else:
-    print("escolha invalida. por favor escolha 1, 2, 3 ou 4")
+    print("escolha invalida. escolha 1, 2, 3 ou 4")
 
